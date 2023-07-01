@@ -6,6 +6,15 @@
     <title>My First Webpage</title>
 </head>
 <body>
+    <!-- this is the header section -->
+    <header>
+        <ul>
+            <li><a href="tweets.html">This is a link to tweets</a></li>
+        </ul>
+    </header>
+    <!-- main section -->
+    <main>
+    <article>
     <h1>THIS IS MY WEBPAGE</h1>
     <P>
         HTML (HyperText Markup Language) is a markup language that tells web browsers how to structure the web pages you visit. It can be as complicated or as simple as the web developer wants it to be. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on. For example, consider the following line of text:
@@ -17,14 +26,58 @@
         
         You can bookmark the page for easy retrieval. Or you can print out our PDF so you can keep it by your desk.
     </p>
+    <p>
+        Sometimes you will see attributes written without values. This is entirely acceptable. These are called Boolean attributes. Boolean attributes can only have one value, which is generally the same as the attribute name. For example, consider the disabled attribute, which you can assign to form input elements. (You use this to disable the form input elements so the user can't make entries. The disabled elements typically have a grayed-out appearance.) For example:
+    </p>
+    <a href="https://twitter.com/ehoneahobed/status/1674458815494758401" target="_blank"><img src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=1480&t=st=1688197251~exp=1688197851~hmac=4f4f8304686042e8d2458c74e052691d94f7641cd2b0e2eb94462a81816696ff" alt="Programming is fun"></a>
+    </article>
+    <!-- use of the aside tag -->
+    <aside>
     <h3> ALX learning</h3>
     <p>
         ALX has given us an opportunity to learn software engineering in a shorter amount of time
         Its a great opportunity given to us and i appreciate.
     </p>
-    <p>
-        Sometimes you will see attributes written without values. This is entirely acceptable. These are called Boolean attributes. Boolean attributes can only have one value, which is generally the same as the attribute name. For example, consider the disabled attribute, which you can assign to form input elements. (You use this to disable the form input elements so the user can't make entries. The disabled elements typically have a grayed-out appearance.) For example:
-    </p>
-    <a href="https://twitter.com/ehoneahobed/status/1674458815494758401" target="_blank"><img src="https://img.freepik.com/free-vector/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg?w=1480&t=st=1688197251~exp=1688197851~hmac=4f4f8304686042e8d2458c74e052691d94f7641cd2b0e2eb94462a81816696ff" alt="Programming is fun"></a>
+   </aside>
+   <article>
+    <!-- this is a table containing members about some learners -->
+    <table border="1" cellspacing="0">
+        <tr>
+            <th>Home</th>
+            <th>Age</th>
+            <th> Country</th>
+        </tr><br>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>25</td>
+                <td>USA</td>
+            </tr>
+            <tr>
+                <td>Emily</td>
+                <td>28</td>
+                <td>Canada</td>
+            </tr>
+            <tr>
+                <td>Michael</td>
+                <td>32</td>
+                <td>Australia</td>
+            </tr>
+            <tr>
+                <td>Sophia</td>
+                <td>21</td>
+                <td>UK</td>
+            </tr>
+        </tbody>
+        
+    </table>
+   </article>
+    </main>
+    <!-- thisis the footer section -->
+    <footer>
+        <p>Made by <strong><em>Martin Kieti</em></strong>
+           follow me on  <a href="https://twitter.com/martinkieti01">Twitter</a>
+        </p>
+    </footer>
 </body>
 </html>
