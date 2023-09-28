@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <h2>Survey</h2>
+    <form action="" method="post">
+        <div class="name">
+            <label for="name">Name
+                <input type="text" name="name" id="name" required>
+            </label>
+        </div>
+
+        <div class="email">
+            <label for="email" >Email
+                <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
+            </label>
+        </div>
+
+        <div class="color-picker">
+            <label for="color-picker">Color picker</label>
+            <select name="color" id="color-picker">
+                <option value="red">Red</option>
+                <option value="Blue">Blue</option>
+                <option value="">Green</option>
+            </select>
+        </div>
+
+        <div class="date">
+            <label for="date">Date
+                <input type="date" name="date" id="date">
+            </label>
+        </div>
+
+        <div class="time">
+            <label for="time">Time
+                <input type="time" name="time" id="time">
+            </label>
+        </div>
+    </form>
+</body>
+</html>

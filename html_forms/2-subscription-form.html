@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Form</title>
+</head>
+<body>
+    <form action="" method="post">
+        <legend>Subscription form</legend>
+
+        <div class="name">
+            <label for="name">name
+                <input type="text" name="name" id="name" required>
+            </label>
+        </div>
+
+        <div class="email">
+            <label for="email" >Email
+                <input type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" required />
+            </label>
+        </div>
+
+        <div class="sub">
+            <fieldset>
+                <legend>Subscription Preference</legend>
+                
+                <!-- weekly -->
+                <label for="duration_1">
+                    <input type="radio" name="duration" id="duration_1">
+                    Weekly
+                </label><br>
+
+                <!-- Monthly -->
+                <label for="duration_2">
+                    <input type="radio" name="duration" id="duration_2">
+                    Monthly
+                </label><br>
+
+                <!-- Yearly -->
+                <label for="duration_3">
+                    <input type="radio" name="duration" id="duration_3">
+                    Yearly
+                </label>
+            </fieldset>
+        </div>
+
+        <div class="submit">
+            <button>submit</button>
+        </div>
+    </form>
+</body>
+</html>
